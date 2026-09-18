@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice framework">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.JUnitXMLReporter"/>
+    </listeners>
+    <test name="User API Tests">
+        <classes>
+            <!--class name="tests.UserTest"/-->
+            <class name="tests.UtilityTest"/>
+        </classes>
+    </test>
+</suite>
